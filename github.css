@@ -1,0 +1,74 @@
+ body{
+font-family:Verdana;
+font-size:20px;
+background-color:#efefef;
+ }
+ h1{
+	font-size:30px;
+	color :#003366;
+	text-align:center;
+	border-bottom:2px solid #2e2e1f;
+ }
+ h2{
+	font-size:27px;
+	color:#4775d1;
+	text-align:left;
+	padding-left:30px;
+ }
+
+
+.ergasies{
+	display:block;
+	color:white;
+	text-align:left;
+	text-decoration:none;
+	background-color:#4d4d4d;
+	padding:14px 16px;
+	border-collapse:collapse;
+	width:300px;
+    height:40px;
+	margin:5px;
+}
+.repositories{
+	position:relative;
+	float:left;
+	
+	
+}
+.github{
+	height:250px;
+	margin:0px;
+	position:relative;
+	float:left;
+	left:480px;
+	
+}
+.sxedio{
+	position:relative;
+	float:left;
+	right:500px;
+}
+.portfolio{
+	position:relative;
+	float:left;
+	display:block;
+	color:white;
+	font-size:25px;
+	text-align:left;
+	text-decoration:none;
+	background-color:black;
+	padding:14px 30px;
+	border-collapse:collapse;
+	width:420px;
+    height:40px;
+	margin:10px;
+	top:250px;
+	right:10px;
+}
+
+
+}
+.ergasies :hover .ergasies{
+	background-color:#4775d1;
+}
+
