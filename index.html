@@ -7,7 +7,16 @@
    <link rel="preconnect" href="https://fonts.gstatic.com">
 <link href="https://fonts.googleapis.com/css2?family=Mountains+of+Christmas:wght@700&display=swap" rel="stylesheet"> 
   <script src="https://kit.fontawesome.com/6a6136a156.js" crossorigin="anonymous"></script>
-  
+  <style>
+#ora{ 
+	position:absolute;
+	top:2px;
+	right:2px;
+	border:1px solid black;
+	font-size:20px;
+	padding:3px;
+}
+</style>
   
  
 </head>
@@ -45,7 +54,24 @@
 		<a href ="portfolio" class= "portfolio">Portfolio</a>
 	</div>
 	</div>
-	
+	<div id="ora"></div>
+<script>
+window.onload=roloi();
+function roloi(){
+		var ora= document.querySelector("#ora");
+		var d=new Date();
+		var h=d.getHours();
+		var m=d.getMinutes();
+		var s=d.getSeconds();
+		if(s<10){s="0"+s;}
+		if(m<10){m="0"+m;}
+		if(h<10){h="0"+h;}
+		ora.innerHTML=h+":"+m+":"+s;
+		setTimeout(roloi,1000);
+		
+}
+   
+</script>
 		
 </body>
 </html>
